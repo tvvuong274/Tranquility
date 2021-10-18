@@ -1,0 +1,18 @@
+# ENGINE giữ nguyên nếu xài oracle
+# NAME: <host>:<port>/<service name>
+# USER: tên đăng nhập
+# PASSWORD: mật khẩu
+
+# import cx_Oracle
+# cx_Oracle.init_oracle_client(lib_dir=r"C:\oracle\instantclient_19_12")
+
+
+DATABASE = {
+      'ENGINE': 'django.db.backends.postgresql_psycopg2',
+      'NAME': 'Tranquility',
+      'USER': 'tragbridal',
+      'PASSWORD': 'password',
+      'HOST': 'localhost',
+      'PORT': '',
+
+}
